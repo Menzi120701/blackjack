@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        text-align: center;
+        background-color: grey;
+        font-size: 24px;
+    }
+    h3{
+        color: black;
+    }
+    button{
+        display: block;
+        margin : 16px auto;
+        background-color: green;
+        width: 100px;
+        height:30px;
+        padding: 5px 5px;
+        font-size: 12px;
+    
+    }
+    button:hover{
+        color: goldenrod;
+    }
+
+
+    </style>
+</head>
+<body>
+    <h3 id="message-el">Lets play</h3>
+    <p id="cards-el">cards :</p>
+    <p id="sum-el">sum :</p>
+    <button onclick="renderGame()">START ROUND</button>
+    <button onclick="newGame()">NEW GAME</button>
+    <button onclick="drawCard()">DRAW CARD</button>
+    <button onclick="clearGame()">CLEAR</button>
+</body>
+<script src="index.js"></script>
+</html>
